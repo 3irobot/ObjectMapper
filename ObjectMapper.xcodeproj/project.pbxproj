@@ -128,7 +128,10 @@
 		891804CD1C122AF000E5C3EE /* MappableTypesWithTransformsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891804CC1C122AF000E5C3EE /* MappableTypesWithTransformsTests.swift */; };
 		891804CE1C122AF000E5C3EE /* MappableTypesWithTransformsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891804CC1C122AF000E5C3EE /* MappableTypesWithTransformsTests.swift */; };
 		891804CF1C122AF000E5C3EE /* MappableTypesWithTransformsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891804CC1C122AF000E5C3EE /* MappableTypesWithTransformsTests.swift */; };
-		9779E0852BEA23E600FC1CEC /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 9779E0842BEA23E200FC1CEC /* PrivacyInfo.xcprivacy */; };
+		971CE9C62C06D33800B5FCF8 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 971CE9C52C06D33800B5FCF8 /* PrivacyInfo.xcprivacy */; };
+		971CE9C72C06D33800B5FCF8 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 971CE9C52C06D33800B5FCF8 /* PrivacyInfo.xcprivacy */; };
+		971CE9C82C06D33800B5FCF8 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 971CE9C52C06D33800B5FCF8 /* PrivacyInfo.xcprivacy */; };
+		971CE9C92C06D33800B5FCF8 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 971CE9C52C06D33800B5FCF8 /* PrivacyInfo.xcprivacy */; };
 		997B4A471D3FA20D005E3F31 /* DictionaryTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997B4A461D3FA20D005E3F31 /* DictionaryTransform.swift */; };
 		997B4A481D3FA20D005E3F31 /* DictionaryTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997B4A461D3FA20D005E3F31 /* DictionaryTransform.swift */; };
 		997B4A491D3FA20D005E3F31 /* DictionaryTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997B4A461D3FA20D005E3F31 /* DictionaryTransform.swift */; };
@@ -265,7 +268,7 @@
 		84D4F8511CC3B643008B0FB6 /* NSDecimalNumberTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDecimalNumberTransform.swift; sourceTree = "<group>"; };
 		84D4F8561CC3B71B008B0FB6 /* NSDecimalNumberTransformTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSDecimalNumberTransformTests.swift; path = ObjectMapperTests/NSDecimalNumberTransformTests.swift; sourceTree = "<group>"; };
 		891804CC1C122AF000E5C3EE /* MappableTypesWithTransformsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MappableTypesWithTransformsTests.swift; path = ObjectMapperTests/MappableTypesWithTransformsTests.swift; sourceTree = "<group>"; };
-		9779E0842BEA23E200FC1CEC /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		971CE9C52C06D33800B5FCF8 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		997B4A461D3FA20D005E3F31 /* DictionaryTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryTransform.swift; sourceTree = "<group>"; };
 		BC1E7F361ABC44C000F9B1CF /* EnumTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumTransform.swift; sourceTree = "<group>"; };
 		C135CAB31D762F6900BA9338 /* DataTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTransform.swift; sourceTree = "<group>"; };
@@ -377,6 +380,7 @@
 				6AAC8F7B19F03C2900E7A677 /* ObjectMapper.h */,
 				6AAC8FC219F048FE00E7A677 /* Core */,
 				6AAC8FCA19F048FE00E7A677 /* Transforms */,
+				971CE9C42C06D33800B5FCF8 /* Supporting Files */,
 				6AAC8F7919F03C2900E7A677 /* Supporting Files */,
 			);
 			name = ObjectMapper;
@@ -386,7 +390,6 @@
 		6AAC8F7919F03C2900E7A677 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9779E0842BEA23E200FC1CEC /* PrivacyInfo.xcprivacy */,
 				6AAC8F7A19F03C2900E7A677 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -471,6 +474,14 @@
 				038F0A021E55FE2400613148 /* IntegerOperators.swift */,
 			);
 			name = Operators;
+			sourceTree = "<group>";
+		};
+		971CE9C42C06D33800B5FCF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				971CE9C52C06D33800B5FCF8 /* PrivacyInfo.xcprivacy */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -707,6 +718,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				971CE9C92C06D33800B5FCF8 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -721,6 +733,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				971CE9C82C06D33800B5FCF8 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -728,7 +741,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9779E0852BEA23E600FC1CEC /* PrivacyInfo.xcprivacy in Resources */,
+				971CE9C62C06D33800B5FCF8 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -743,6 +756,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				971CE9C72C06D33800B5FCF8 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
