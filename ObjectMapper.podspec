@@ -16,5 +16,5 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
   s.source_files = 'Sources/**/*.swift'
-  s.resource_bundles = {'ObjectMapper' => ['ObjectMapper/Sources/Supporting Files/Privacyinfo.xcprivacy']}
+  s.resource_bundles = {'ObjectMapper' => ['Sources/Supporting Files/Privacyinfo.xcprivacy']}
 end
