@@ -377,22 +377,14 @@
 		6AAC8F7819F03C2900E7A677 /* ObjectMapper */ = {
 			isa = PBXGroup;
 			children = (
+				6AAC8F7A19F03C2900E7A677 /* Info.plist */,
 				6AAC8F7B19F03C2900E7A677 /* ObjectMapper.h */,
 				6AAC8FC219F048FE00E7A677 /* Core */,
 				6AAC8FCA19F048FE00E7A677 /* Transforms */,
 				971CE9C42C06D33800B5FCF8 /* Supporting Files */,
-				6AAC8F7919F03C2900E7A677 /* Supporting Files */,
 			);
 			name = ObjectMapper;
 			path = Sources;
-			sourceTree = "<group>";
-		};
-		6AAC8F7919F03C2900E7A677 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				6AAC8F7A19F03C2900E7A677 /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		6AAC8F8219F03C2900E7A677 /* ObjectMapperTests */ = {
